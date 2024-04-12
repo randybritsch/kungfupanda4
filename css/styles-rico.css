@@ -1,0 +1,99 @@
+﻿body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #333333;
+}
+
+#header {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	right: 10px;
+	height: 135px;
+	border-bottom: 1px solid #999999;
+}
+
+#navigation {
+	position: absolute;
+	top: 155px;
+	left: 10px;
+	width: 125px;
+	bottom: 10px;
+	border-right: 1px solid #999999;
+}
+
+#mainbody {
+	position: absolute;
+	top: 145px;
+	left: 145px;
+	right: 10px;
+	bottom: 10px;
+}
+
+#photo {
+	float: left;
+	margin-right: 15px;
+	transition: width 2s, height 2s, transform 2s;
+	-moz-transition: width 2s, height 2s, -moz-transform 2s;
+	-webkit-transition: width 2s, height 2s, -webkit-transform 2s;
+	-o-transition: width 2s, height 2s,-o-transform 2s;
+}
+
+#photo:hover {
+	height: 250px;
+	width: 250px;
+	transform: rotate(360deg);
+	-ms-transform: rotate(360deg); /* IE 9 */
+	-webkit-transform: rotate(360deg); /* Safari and Chrome */
+	-o-transform: rotate(360deg); /* Opera */
+	-moz-transform: rotate(360deg); /* Firefox */
+}
+
+.topImage {
+	opacity:0.2;
+    filter:alpha(opacity=20);
+	transform: rotate(90deg);
+	-ms-transform: rotate(90deg); /* IE 9 */
+	-webkit-transform: rotate(90deg); /* Safari and Chrome */
+	-o-transform: rotate(90deg); /* Opera */
+	-moz-transform: rotate(90deg); /* Firefox */
+	position: absolute;
+	right: -40px;
+}
+
+#info {
+	position: absolute;
+	left: 145px;
+	top: 5px;
+}
+
+h1 {color: #242251;}
+
+p {
+	color: #666666;
+	text-align: justify;
+	line-height: 1.0;
+}
+
+p.contact {color: black;}
+
+.subHeading {font-weight: bold;}
+
+a:link {
+	color: #242251; 
+	text-decoration: none;
+	font-weight: bold; 
+	text-shadow: 2px 2px 2px #CCCCCC; 
+	line-height: 2.0;
+}
+a:hover {text-decoration: underline;}
+a:visited {color: #5D4157;}
+
+.careerInterests {
+	font-weight: normal; 
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.resumeHeadings {
+	font-weight: bold; 
+	font-family:Cambria, "Times New Roman", serif;
+}
